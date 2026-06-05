@@ -15,7 +15,7 @@ siniflar = [
 @st.cache_resource
 def model_yukle():
 
-    model_yolu = r"C:\Users\sevde\Desktop\Wifi_Project\wifiprocektphtyn\en_son_modelin.h5"
+    model_yolu = r"C:\Users\sevde\Desktop\Wifi_Project\wifiprocektphtyn\en_son_model.h5"
     return tf.keras.models.load_model(model_yolu)
 
 try:
